@@ -1,0 +1,48 @@
+create a folder for projects in terminal with:	mkdir project_folder_name
+	create a project folder with:				mkdir project_name
+	enter into project folder:				cd project_name
+	now install the packages and modules:			npm init   and     npm i
+	now open vs code:					code .
+		now create a file with name:				server.js
+	create folder for config				mkdir config		create a index.js file
+	create folder for database				mkdir database		create a index.js file
+		create folder for SP's					mkdir SP's
+			create a sql file					sp_query.sql
+	create folder for express				mkdir express		create a index.js file
+	create folder for src					mkdir src
+		create folder for controllers				mkdir controllers
+			create js file for controller				somename.controller.js
+		create folder for models				mkdir models
+			create js file for model				somename.model.js
+		create folder for routes				mkdir routes
+			create js file for route				somename.route.js
+		create folder for services				mkdir services
+			create js file for service				somename.service.js
+
+
+
+first open server.js and write code
+
+
+first open config folder and open index.js and code for export
+then open database folder and open index.js and import mssql and also import env and code for export
+	open SP's folder in database folder and open .sql file to write sp's
+
+
+
+
+
+now open src folder and open models folder and open model.js file and import database folder.....  and code for export
+now open services folder and open service.js file and import model file from models folder......   and code for export
+now open controllers folder and open controller.js file and import service file from services folder.....  and code for export
+now open routes folder folder and open route.js file and import express and import controller file from controllers folder  and code for export
+
+
+
+
+
+now open express folder and import express, import body-parser, import cors, import config, import database, import route .......
+	
+
+
+
