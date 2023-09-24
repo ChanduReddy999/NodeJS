@@ -44,5 +44,5 @@ now open routes folder folder and open route.js file and import express and impo
 now open express folder and import express, import body-parser, import cors, import config, import database, import route .......
 	
 
-
+now run the main file server.js in terminal/cmd : node server.js
 
